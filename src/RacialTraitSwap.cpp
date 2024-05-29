@@ -39,7 +39,7 @@
 #include "ScriptedGossip.h"
 #include "WorldSession.h"
 
-#define LOCALE_RACESWAP_0 "Racial Trait Swap"
+#define LOCALE_RACESWAP_0 "种族天赋"
 #define LOCALE_RACESWAP_1 "인종 특성 교환"
 #define LOCALE_RACESWAP_2 "Échange de traits raciaux"
 #define LOCALE_RACESWAP_3 "Rassenmerkmalswechsel"
@@ -49,7 +49,7 @@
 #define LOCALE_RACESWAP_7 "Intercambio de rasgos raciales"
 #define LOCALE_RACESWAP_8 "Обмен расовыми особенностями"
 
-#define LOCALE_EXIT_0 "[EXIT]"
+#define LOCALE_EXIT_0 "[退出]"
 #define LOCALE_EXIT_1 "[출구]"
 #define LOCALE_EXIT_2 "[SORTIR]"
 #define LOCALE_EXIT_3 "[AUSFAHRT]"
@@ -59,7 +59,7 @@
 #define LOCALE_EXIT_7 "[SALIDA]"
 #define LOCALE_EXIT_8 "[ВЫХОД]"
 
-#define LOCALE_BACK_0 "[BACK]"
+#define LOCALE_BACK_0 "[返回]"
 #define LOCALE_BACK_1 "[출구]"
 #define LOCALE_BACK_2 "[RETOUR]"
 #define LOCALE_BACK_3 "[ZURÜCK]"
@@ -69,7 +69,7 @@
 #define LOCALE_BACK_7 "[ESPALDA]"
 #define LOCALE_BACK_8 "[НАЗАД]"
 
-#define LOCALE_GOLD_0 " Gold."
+#define LOCALE_GOLD_0 " 金。"
 #define LOCALE_GOLD_1 " 골드."
 #define LOCALE_GOLD_2 " L' or."
 #define LOCALE_GOLD_3 " Gold."
@@ -80,7 +80,7 @@
 #define LOCALE_GOLD_8 " Золото."
 
 // female icons
-#define LOCALE_BES_0 "|TInterface\\icons\\Achievement_Character_Bloodelf_Female:25|tBlood Elf Racial Trait Swap -"
+#define LOCALE_BES_0 "|TInterface\\icons\\Achievement_Character_Bloodelf_Female:25|t血精灵天赋 -"
 #define LOCALE_BES_1 "|TInterface\\icons\\Achievement_Character_Bloodelf_Female:25|t블러드 엘프 인종 특성 스왑 -"
 #define LOCALE_BES_2 "|TInterface\\icons\\Achievement_Character_Bloodelf_Female:25|tÉchange de traits raciaux des elfes de sang -"
 #define LOCALE_BES_3 "|TInterface\\icons\\Achievement_Character_Bloodelf_Female:25|tRassenwechsel der Blutelfen -"
@@ -91,7 +91,7 @@
 #define LOCALE_BES_8 "|TInterface\\icons\\Achievement_Character_Bloodelf_Female:25|tОбмен расовой особенностью эльфов крови -"
 
 // male icons
-#define LOCALE_BES_9  "|TInterface\\icons\\Achievement_Character_Bloodelf_Male:25|tBlood Elf Racial Trait Swap -"
+#define LOCALE_BES_9  "|TInterface\\icons\\Achievement_Character_Bloodelf_Male:25|t血精灵天赋 -"
 #define LOCALE_BES_10 "|TInterface\\icons\\Achievement_Character_Bloodelf_Male:25|t블러드 엘프 인종 특성 스왑 -"
 #define LOCALE_BES_11 "|TInterface\\icons\\Achievement_Character_Bloodelf_Male:25|tÉchange de traits raciaux des elfes de sang -"
 #define LOCALE_BES_12 "|TInterface\\icons\\Achievement_Character_Bloodelf_Male:25|tRassenwechsel der Blutelfen -"
@@ -102,7 +102,7 @@
 #define LOCALE_BES_17 "|TInterface\\icons\\Achievement_Character_Bloodelf_Male:25|tОбмен расовой особенностью эльфов крови -"
 
 // female icons
-#define LOCALE_DRS_0 "|TInterface\\icons\\Achievement_Character_Draenei_Female:25|tDraenei Racial Trait Swap  -"
+#define LOCALE_DRS_0 "|TInterface\\icons\\Achievement_Character_Draenei_Female:25|t德莱尼天赋  -"
 #define LOCALE_DRS_1 "|TInterface\\icons\\Achievement_Character_Draenei_Female:25|t드레나이 인종 특성 스왑 -"
 #define LOCALE_DRS_2 "|TInterface\\icons\\Achievement_Character_Draenei_Female:25|tÉchange de traits raciaux draeneï -"
 #define LOCALE_DRS_3 "|TInterface\\icons\\Achievement_Character_Draenei_Female:25|tDraenei Rasseneigenschaftstausch -"
@@ -113,7 +113,7 @@
 #define LOCALE_DRS_8 "|TInterface\\icons\\Achievement_Character_Draenei_Female:25|tОбмен расовыми особенностями дренеев -"
 
 //male icons
-#define LOCALE_DRS_9 "|TInterface\\icons\\Achievement_Character_Draenei_Male:25|tDraenei Racial Trait Swap  -"
+#define LOCALE_DRS_9 "|TInterface\\icons\\Achievement_Character_Draenei_Male:25|t德莱尼天赋  -"
 #define LOCALE_DRS_10 "|TInterface\\icons\\Achievement_Character_Draenei_Male:25|t드레나이 인종 특성 스왑 -"
 #define LOCALE_DRS_11 "|TInterface\\icons\\Achievement_Character_Draenei_Male:25|tÉchange de traits raciaux draeneï -"
 #define LOCALE_DRS_12 "|TInterface\\icons\\Achievement_Character_Draenei_Male:25|tDraenei Rasseneigenschaftstausch -"
@@ -124,7 +124,7 @@
 #define LOCALE_DRS_17 "|TInterface\\icons\\Achievement_Character_Draenei_Male:25|tОбмен расовыми особенностями дренеев -"
 
 //female icons
-#define LOCALE_DWS_0 "|TInterface\\icons\\Achievement_Character_Dwarf_Female:25|tDwarven Racial Trait Swap -"
+#define LOCALE_DWS_0 "|TInterface\\icons\\Achievement_Character_Dwarf_Female:25|t矮人天赋 -"
 #define LOCALE_DWS_1 "|TInterface\\icons\\Achievement_Character_Dwarf_Female:25|t드워프 종족 특성 전환 -"
 #define LOCALE_DWS_2 "|TInterface\\icons\\Achievement_Character_Dwarf_Female:25|tÉchange de traits raciaux nains -"
 #define LOCALE_DWS_3 "|TInterface\\icons\\Achievement_Character_Dwarf_Female:25|tTausch der Rasseneigenschaften der Zwerge -"
@@ -135,7 +135,7 @@
 #define LOCALE_DWS_8 "|TInterface\\icons\\Achievement_Character_Dwarf_Female:25|tОбмен расовыми особенностями гномов -"
 
 //male icons
-#define LOCALE_DWS_9 "|TInterface\\icons\\Achievement_Character_Dwarf_Male:25|tDwarven Racial Trait Swap -"
+#define LOCALE_DWS_9 "|TInterface\\icons\\Achievement_Character_Dwarf_Male:25|t矮人天赋 -"
 #define LOCALE_DWS_10 "|TInterface\\icons\\Achievement_Character_Dwarf_Male:25|t드워프 종족 특성 전환 -"
 #define LOCALE_DWS_11 "|TInterface\\icons\\Achievement_Character_Dwarf_Male:25|tÉchange de traits raciaux nains -"
 #define LOCALE_DWS_12 "|TInterface\\icons\\Achievement_Character_Dwarf_Male:25|tTausch der Rasseneigenschaften der Zwerge -"
@@ -146,7 +146,7 @@
 #define LOCALE_DWS_17 "|TInterface\\icons\\Achievement_Character_Dwarf_Male:25|tОбмен расовыми особенностями гномов -"
 
 //female icons
-#define LOCALE_GNS_0 "|TInterface\\icons\\Achievement_Character_Gnome_Female:25|tGnome Racial Trait Swap -"
+#define LOCALE_GNS_0 "|TInterface\\icons\\Achievement_Character_Gnome_Female:25|t侏儒天赋 -"
 #define LOCALE_GNS_1 "|TInterface\\icons\\Achievement_Character_Gnome_Female:25|t그놈 인종 특성 스왑 -"
 #define LOCALE_GNS_2 "|TInterface\\icons\\Achievement_Character_Gnome_Female:25|tÉchange de traits raciaux de gnome -"
 #define LOCALE_GNS_3 "|TInterface\\icons\\Achievement_Character_Gnome_Female:25|tTausch der Rasseneigenschaft Gnom -"
@@ -157,7 +157,7 @@
 #define LOCALE_GNS_8 "|TInterface\\icons\\Achievement_Character_Gnome_Female:25|tСмена расовой особенности гномов -"
 
 //male icons
-#define LOCALE_GNS_9 "|TInterface\\icons\\Achievement_Character_Gnome_Male:25|tGnome Racial Trait Swap -"
+#define LOCALE_GNS_9 "|TInterface\\icons\\Achievement_Character_Gnome_Male:25|t侏儒天赋 -"
 #define LOCALE_GNS_10 "|TInterface\\icons\\Achievement_Character_Gnome_Male:25|t그놈 인종 특성 스왑 -"
 #define LOCALE_GNS_11 "|TInterface\\icons\\Achievement_Character_Gnome_Male:25|tÉchange de traits raciaux de gnome -"
 #define LOCALE_GNS_12 "|TInterface\\icons\\Achievement_Character_Gnome_Male:25|tTausch der Rasseneigenschaft Gnom -"
@@ -168,7 +168,7 @@
 #define LOCALE_GNS_17 "|TInterface\\icons\\Achievement_Character_Gnome_Male:25|tСмена расовой особенности гномов -"
 
 //female icons
-#define LOCALE_HUS_0 "|TInterface\\icons\\Achievement_Character_Human_Female:25|tHuman Racial Trait Swap -"
+#define LOCALE_HUS_0 "|TInterface\\icons\\Achievement_Character_Human_Female:25|t人类天赋 -"
 #define LOCALE_HUS_1 "|TInterface\\icons\\Achievement_Character_Human_Female:25|t인간 인종 특성 교환 -"
 #define LOCALE_HUS_2 "|TInterface\\icons\\Achievement_Character_Human_Female:25|tÉchange de traits raciaux humains -"
 #define LOCALE_HUS_3 "|TInterface\\icons\\Achievement_Character_Human_Female:25|tAustausch von menschlichen Rassenmerkmalen -"
@@ -179,7 +179,7 @@
 #define LOCALE_HUS_8 "|TInterface\\icons\\Achievement_Character_Human_Female:25|tОбмен расовыми особенностями человека -"
 
 //male icons
-#define LOCALE_HUS_9 "|TInterface\\icons\\Achievement_Character_Human_Male:25|tHuman Racial Trait Swap -"
+#define LOCALE_HUS_9 "|TInterface\\icons\\Achievement_Character_Human_Male:25|t人类天赋 -"
 #define LOCALE_HUS_10 "|TInterface\\icons\\Achievement_Character_Human_Male:25|t인간 인종 특성 교환 -"
 #define LOCALE_HUS_11 "|TInterface\\icons\\Achievement_Character_Human_Male:25|tÉchange de traits raciaux humains -"
 #define LOCALE_HUS_12 "|TInterface\\icons\\Achievement_Character_Human_Male:25|tAustausch von menschlichen Rassenmerkmalen -"
@@ -190,7 +190,7 @@
 #define LOCALE_HUS_17 "|TInterface\\icons\\Achievement_Character_Human_Male:25|tОбмен расовыми особенностями человека -"
 
 //female icons
-#define LOCALE_NES_0 "|TInterface\\icons\\Achievement_Character_Nightelf_Female:25|tNight Elf Racial Trait Swap -"
+#define LOCALE_NES_0 "|TInterface\\icons\\Achievement_Character_Nightelf_Female:25|t暗夜精灵天赋 -"
 #define LOCALE_NES_1 "|TInterface\\icons\\Achievement_Character_Nightelf_Female:25|t나이트 엘프 인종 특성 스왑 -"
 #define LOCALE_NES_2 "|TInterface\\icons\\Achievement_Character_Nightelf_Female:25|tÉchange de traits raciaux des elfes de la nuit -"
 #define LOCALE_NES_3 "|TInterface\\icons\\Achievement_Character_Nightelf_Female:25|tTausch der Nachtelfen-Rasseneigenschaft -"
@@ -201,7 +201,7 @@
 #define LOCALE_NES_8 "|TInterface\\icons\\Achievement_Character_Nightelf_Female:25|tОбмен расовыми особенностями ночных эльфов -"
 
 //male icons
-#define LOCALE_NES_9 "|TInterface\\icons\\Achievement_Character_Nightelf_Male:25|tNight Elf Racial Trait Swap -"
+#define LOCALE_NES_9 "|TInterface\\icons\\Achievement_Character_Nightelf_Male:25|t暗夜精灵天赋 -"
 #define LOCALE_NES_10 "|TInterface\\icons\\Achievement_Character_Nightelf_Male:25|t나이트 엘프 인종 특성 스왑 -"
 #define LOCALE_NES_11 "|TInterface\\icons\\Achievement_Character_Nightelf_Male:25|tÉchange de traits raciaux des elfes de la nuit -"
 #define LOCALE_NES_12 "|TInterface\\icons\\Achievement_Character_Nightelf_Male:25|tTausch der Nachtelfen-Rasseneigenschaft -"
@@ -212,7 +212,7 @@
 #define LOCALE_NES_17 "|TInterface\\icons\\Achievement_Character_Nightelf_Male:25|tОбмен расовыми особенностями ночных эльфов -"
 
 //female icons
-#define LOCALE_ORC_0 "|TInterface\\icons\\Achievement_Character_Orc_Female:25|tOrc Racial Trait Swap -"
+#define LOCALE_ORC_0 "|TInterface\\icons\\Achievement_Character_Orc_Female:25|t兽人天赋 -"
 #define LOCALE_ORC_1 "|TInterface\\icons\\Achievement_Character_Orc_Female:25|t오크 종족 특성 교환 -"
 #define LOCALE_ORC_2 "|TInterface\\icons\\Achievement_Character_Orc_Female:25|tÉchange de traits raciaux orques -"
 #define LOCALE_ORC_3 "|TInterface\\icons\\Achievement_Character_Orc_Female:25|tAustausch der Ork-Rassenmerkmale -"
@@ -223,7 +223,7 @@
 #define LOCALE_ORC_8 "|TInterface\\icons\\Achievement_Character_Orc_Female:25|tСмена расовой особенности орков -"
 
 //male icons
-#define LOCALE_ORC_9 "|TInterface\\icons\\Achievement_Character_Orc_Male:25|tOrc Racial Trait Swap -"
+#define LOCALE_ORC_9 "|TInterface\\icons\\Achievement_Character_Orc_Male:25|t兽人天赋 -"
 #define LOCALE_ORC_10 "|TInterface\\icons\\Achievement_Character_Orc_Male:25|t오크 종족 특성 교환 -"
 #define LOCALE_ORC_11 "|TInterface\\icons\\Achievement_Character_Orc_Male:25|tÉchange de traits raciaux orques -"
 #define LOCALE_ORC_12 "|TInterface\\icons\\Achievement_Character_Orc_Male:25|tAustausch der Ork-Rassenmerkmale -"
@@ -234,7 +234,7 @@
 #define LOCALE_ORC_17 "|TInterface\\icons\\Achievement_Character_Orc_Male:25|tСмена расовой особенности орков -"
 
 //female icons
-#define LOCALE_TUR_0 "|TInterface\\icons\\Achievement_Character_Tauren_Female:25|tTauren Racial Trait Swap -"
+#define LOCALE_TUR_0 "|TInterface\\icons\\Achievement_Character_Tauren_Female:25|t牛头人天赋 -"
 #define LOCALE_TUR_1 "|TInterface\\icons\\Achievement_Character_Tauren_Female:25|t타우렌 인종 특성 교환 -"
 #define LOCALE_TUR_2 "|TInterface\\icons\\Achievement_Character_Tauren_Female:25|tÉchange de traits raciaux Tauren -"
 #define LOCALE_TUR_3 "|TInterface\\icons\\Achievement_Character_Tauren_Female:25|tTauren Rasseneigenschaftstausch -"
@@ -245,7 +245,7 @@
 #define LOCALE_TUR_8 "|TInterface\\icons\\Achievement_Character_Tauren_Female:25|tОбмен расовыми особенностями тауренов -"
 
 //male icons
-#define LOCALE_TUR_9 "|TInterface\\icons\\Achievement_Character_Tauren_Male:25|tTauren Racial Trait Swap -"
+#define LOCALE_TUR_9 "|TInterface\\icons\\Achievement_Character_Tauren_Male:25|t牛头人天赋 -"
 #define LOCALE_TUR_10 "|TInterface\\icons\\Achievement_Character_Tauren_Male:25|t타우렌 인종 특성 교환 -"
 #define LOCALE_TUR_11 "|TInterface\\icons\\Achievement_Character_Tauren_Male:25|tÉchange de traits raciaux Tauren -"
 #define LOCALE_TUR_12 "|TInterface\\icons\\Achievement_Character_Tauren_Male:25|tTauren Rasseneigenschaftstausch -"
@@ -256,7 +256,7 @@
 #define LOCALE_TUR_17 "|TInterface\\icons\\Achievement_Character_Tauren_Male:25|tОбмен расовыми особенностями тауренов -"
 
 //female icons
-#define LOCALE_TRL_0 "|TInterface\\icons\\Achievement_Character_Troll_Female:25|tTroll Racial Trait Swap -"
+#define LOCALE_TRL_0 "|TInterface\\icons\\Achievement_Character_Troll_Female:25|t巨魔天赋 -"
 #define LOCALE_TRL_1 "|TInterface\\icons\\Achievement_Character_Troll_Female:25|t트롤 인종 특성 교환 -"
 #define LOCALE_TRL_2 "|TInterface\\icons\\Achievement_Character_Troll_Female:25|tÉchange de traits raciaux de troll -"
 #define LOCALE_TRL_3 "|TInterface\\icons\\Achievement_Character_Troll_Female:25|tTroll-Rasseneigenschaftstausch -"
@@ -267,7 +267,7 @@
 #define LOCALE_TRL_8 "|TInterface\\icons\\Achievement_Character_Troll_Female:25|tОбмен расовой особенности троллей -"
 
 //male icons
-#define LOCALE_TRL_9 "|TInterface\\icons\\Achievement_Character_Troll_Male:25|tTroll Racial Trait Swap -"
+#define LOCALE_TRL_9 "|TInterface\\icons\\Achievement_Character_Troll_Male:25|t巨魔天赋 -"
 #define LOCALE_TRL_10 "|TInterface\\icons\\Achievement_Character_Troll_Male:25|t트롤 인종 특성 교환 -"
 #define LOCALE_TRL_11 "|TInterface\\icons\\Achievement_Character_Troll_Male:25|tÉchange de traits raciaux de troll -"
 #define LOCALE_TRL_12 "|TInterface\\icons\\Achievement_Character_Troll_Male:25|tTroll-Rasseneigenschaftstausch -"
@@ -278,7 +278,7 @@
 #define LOCALE_TRL_17 "|TInterface\\icons\\Achievement_Character_Troll_Male:25|tОбмен расовой особенности троллей -"
 
 //female icons
-#define LOCALE_UND_0 "|TInterface\\icons\\Achievement_Character_Undead_Female:25|tUndead Racial Trait Swap -"
+#define LOCALE_UND_0 "|TInterface\\icons\\Achievement_Character_Undead_Female:25|t亡灵天赋 -"
 #define LOCALE_UND_1 "|TInterface\\icons\\Achievement_Character_Undead_Female:25|t언데드 인종 특성 스왑 -"
 #define LOCALE_UND_2 "|TInterface\\icons\\Achievement_Character_Undead_Female:25|tÉchange de traits raciaux morts-vivants -"
 #define LOCALE_UND_3 "|TInterface\\icons\\Achievement_Character_Undead_Female:25|tUntoter Rassenmerkmalentausch -"
@@ -289,7 +289,7 @@
 #define LOCALE_UND_8 "|TInterface\\icons\\Achievement_Character_Undead_Female:25|tСмена расовой особенности нежити -"
 
 //male icons
-#define LOCALE_UND_9 "|TInterface\\icons\\Achievement_Character_Undead_Male:25|tUndead Racial Trait Swap -"
+#define LOCALE_UND_9 "|TInterface\\icons\\Achievement_Character_Undead_Male:25|t亡灵天赋 -"
 #define LOCALE_UND_10 "|TInterface\\icons\\Achievement_Character_Undead_Male:25|t언데드 인종 특성 스왑 -"
 #define LOCALE_UND_11 "|TInterface\\icons\\Achievement_Character_Undead_Male:25|tÉchange de traits raciaux morts-vivants -"
 #define LOCALE_UND_12 "|TInterface\\icons\\Achievement_Character_Undead_Male:25|tUntoter Rassenmerkmalentausch -"
@@ -784,7 +784,7 @@ public:
             break;
 
         case 1://Blood Elf Selection
-            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "Commit to the Pride of the Blood Elves", GOSSIP_SENDER_MAIN, 112);
+            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "确定选择该天赋", GOSSIP_SENDER_MAIN, 112);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedBack, GOSSIP_SENDER_MAIN, 11);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedExit, GOSSIP_SENDER_MAIN, 1111);
             SendGossipMenuFor(player, 988881, creature->GetGUID());
@@ -815,7 +815,7 @@ public:
             break;
 
         case 2://Draenei Selection
-            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "Commit to the Light of the Draenei", GOSSIP_SENDER_MAIN, 212);
+            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "确定选择该天赋", GOSSIP_SENDER_MAIN, 212);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedBack, GOSSIP_SENDER_MAIN, 11);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedExit, GOSSIP_SENDER_MAIN, 1111);
             SendGossipMenuFor(player, 988882, creature->GetGUID());
@@ -879,7 +879,7 @@ public:
             break;
 
         case 3://Dwarves Selection
-            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "Commit to the Iron Will of the Dwarves", GOSSIP_SENDER_MAIN, 31);
+            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "确定选择该天赋", GOSSIP_SENDER_MAIN, 31);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedBack, GOSSIP_SENDER_MAIN, 11);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedExit, GOSSIP_SENDER_MAIN, 1111);
             SendGossipMenuFor(player, 988883, creature->GetGUID());
@@ -900,7 +900,7 @@ public:
             break;
 
         case 4://Gnome Selection
-            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "Commit to the Technological Might of the Gnomes", GOSSIP_SENDER_MAIN, 41);
+            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "确定选择该天赋", GOSSIP_SENDER_MAIN, 41);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedBack, GOSSIP_SENDER_MAIN, 11);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedExit, GOSSIP_SENDER_MAIN, 1111);
             SendGossipMenuFor(player, 988884, creature->GetGUID());
@@ -920,7 +920,7 @@ public:
             break;
 
         case 5://Human Selection
-            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "Commit to the Human Spirit", GOSSIP_SENDER_MAIN, 51);
+            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "确定选择该天赋", GOSSIP_SENDER_MAIN, 51);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedBack, GOSSIP_SENDER_MAIN, 11);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedExit, GOSSIP_SENDER_MAIN, 1111);
             SendGossipMenuFor(player, 988885, creature->GetGUID());
@@ -942,7 +942,7 @@ public:
             break;
 
         case 6://Night Elf Selection
-            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "Commit to the Ancient Night Elves", GOSSIP_SENDER_MAIN, 61);
+            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "确定选择该天赋", GOSSIP_SENDER_MAIN, 61);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedBack, GOSSIP_SENDER_MAIN, 11);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedExit, GOSSIP_SENDER_MAIN, 1111);
             SendGossipMenuFor(player, 988886, creature->GetGUID());
@@ -963,7 +963,7 @@ public:
             break;
 
         case 7://Orc Selection
-            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "Commit to the Strength of the Orc", GOSSIP_SENDER_MAIN, 71);
+            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "确定选择该天赋", GOSSIP_SENDER_MAIN, 71);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedBack, GOSSIP_SENDER_MAIN, 11);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedExit, GOSSIP_SENDER_MAIN, 1111);
             SendGossipMenuFor(player, 988887, creature->GetGUID());
@@ -1017,7 +1017,7 @@ public:
             break;
 
         case 8://Tauren Selection
-            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "Commit to the Endurance of the Taurens", GOSSIP_SENDER_MAIN, 81);
+            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "确定选择该天赋", GOSSIP_SENDER_MAIN, 81);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedBack, GOSSIP_SENDER_MAIN, 11);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedExit, GOSSIP_SENDER_MAIN, 1111);
             SendGossipMenuFor(player, 988888, creature->GetGUID());
@@ -1037,7 +1037,7 @@ public:
             break;
 
         case 9://Troll Selection
-            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "Commit to the Vodoo of the Trolls", GOSSIP_SENDER_MAIN, 91);
+            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "确定选择该天赋", GOSSIP_SENDER_MAIN, 91);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedBack, GOSSIP_SENDER_MAIN, 11);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedExit, GOSSIP_SENDER_MAIN, 1111);
             SendGossipMenuFor(player, 988889, creature->GetGUID());
@@ -1059,7 +1059,7 @@ public:
             break;
 
         case 10://Undead Selection
-            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "Commit to the Will of the Forsaken", GOSSIP_SENDER_MAIN, 101);
+            AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, "确定选择该天赋", GOSSIP_SENDER_MAIN, 101);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedBack, GOSSIP_SENDER_MAIN, 11);
             AddGossipItemFor(player, GOSSIP_ICON_TALK, localizedExit, GOSSIP_SENDER_MAIN, 1111);
             SendGossipMenuFor(player, 988880, creature->GetGUID());
